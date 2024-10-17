@@ -1,0 +1,37 @@
+.home-office {
+    padding: 20px;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: gold; /* Your theme color */
+    padding: 10px;
+    border-radius: 5px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    margin: 0 10px;
+  }
+  
+  .navbar button {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .navbar button:hover {
+    background-color: darkgray;
+  }
+  
+  .navbar a:hover {
+    color: darkgray;
+  }
+  

@@ -1,0 +1,66 @@
+.create-syllabus {
+  max-width: 600px;
+  margin: 50px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: rgba(0, 0, 0, 0.7); /* Transparent black */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  color: #fff;
+}
+
+.create-syllabus h1 {
+  margin-bottom: 20px;
+  color: #ffcc00; /* Gold color */
+  text-align: center;
+}
+
+.create-syllabus form div {
+  margin-bottom: 20px;
+}
+
+.create-syllabus label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: #ffcc00; /* Gold color */
+}
+
+.create-syllabus input,
+.create-syllabus textarea {
+  color: #ffcc00; /* Gold color */
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black */
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ffcc00; /* Gold color */
+  border-radius: 5px;
+}
+
+.create-syllabus button {
+  padding: 12px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00; /* Gold color */
+  color: #000;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+}
+
+.create-syllabus button:hover {
+  background-color: #e6b800; /* Slightly darker gold */
+}
+
+.create-syllabus .error,
+.create-syllabus .success {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.create-syllabus .error {
+  color: #ff6666; /* Red for errors */
+}
+
+.create-syllabus .success {
+  color: #66ff66; /* Green for success messages */
+}

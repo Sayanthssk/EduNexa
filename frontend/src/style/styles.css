@@ -1,0 +1,85 @@
+body, html {
+  height: 100%;
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: url('clay-banks-u27Rrbs9Dwc-unsplash.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.279); 
+}
+
+.card {
+  position: relative;
+  z-index: 1;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  max-width: 400px;
+  width: 100%;
+  margin: 20px;
+}
+
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+select {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box; 
+}
+
+button {
+  padding: 10px;
+  margin: 10px 0;
+  border: none;
+  border-radius: 5px;
+  background-color: #ffcc00;
+  color: black;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff9900;
+}
+
+label {
+  color: white;
+}
+
+h2 {
+  color: #ffcc00;
+  text-align: center;
+}
+
+p {
+  color: white;
+  text-align: center;
+}
+
+p a {
+  color: #ffcc00;
+  text-decoration: none;
+}
+
+p a:hover {
+  text-decoration: underline;
+}
